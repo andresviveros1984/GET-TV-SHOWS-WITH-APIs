@@ -1,0 +1,7 @@
+body{
+  background-color: gainsboro;
+  margin: auto;    /*centers all the child elements of the container div*/
+  text-align: center;
+}
+
+
