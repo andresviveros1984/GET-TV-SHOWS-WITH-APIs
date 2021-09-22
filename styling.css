@@ -1,7 +1,63 @@
+
 body{
-  background-color: gainsboro;
+  background-image: url(images/SeekPng.com_cartoon-network-logo-png_1826502.png);
+  background-size: 1000px;
+}
+.container{
+  /* background-color: darkgoldenrod; */
   margin: auto;    /*centers all the child elements of the container div*/
   text-align: center;
 }
+
+#title h1{
+  /* border-color: limegreen; 
+  border-style: groove; */
+  color: darkred;
+  font-size: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  text-shadow: dodgerblue;
+  animation: glow 1s ease-in-out infinite;
+}
+
+@keyframes glow{
+  from{
+    text-shadow: 0 0 20px red;
+  }
+  to{
+    text-shadow: 0 0 30px red,
+                   0 0  10 red;
+  }
+}
+
+#instructions{
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+  border: 10px solid;
+  border-radius: 10px;
+  border-color: firebrick;
+  background-color: lightgrey;
+}
+
+#input{
+  /* background-image: url(images/searchlogresized.png) right center no-repeat; */
+  background: white url(images/searchlogresized.png) right center no-repeat;
+  border: rgb(134, 9, 9) solid;
+  color: brown;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+#label{
+  color: darkviolet;
+}
+::placeholder{
+  color: darkgreen;
+}
+
+
+
 
 
