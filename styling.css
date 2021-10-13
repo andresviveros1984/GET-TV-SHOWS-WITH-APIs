@@ -7,6 +7,18 @@ body{
   /* background-color: darkgoldenrod; */
   margin: auto;    /*centers all the child elements of the container div*/
   text-align: center;
+  padding: 50px 20px 50px 20px; /*add custom values here to make glass box a bit smaller*/
+  width: 1000px;
+  /* height: 100vh; */
+  background: rgb(255,255,255,0.3);
+  box-shadow: 0 8px 0 rgba(31,36,135,0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgb(255,255,255,0.18);
+
+
+
 }
 
 #title h1{

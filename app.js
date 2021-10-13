@@ -7,7 +7,7 @@ const tvShowName = document.getElementById('show-title');
 
 const imageDiv = document.getElementById('image');
 const imageTag = document.createElement('img');
-imageTag.id = "image-tag";
+  imageTag.id = "image-tag";
 
 
 async function getTVShowData (){
